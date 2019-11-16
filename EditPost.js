@@ -44,11 +44,11 @@ class EditPost extends Component {
                 <div className="form-group">
                     <label>Category: </label>
                 <select ref={this.categoryRef} className="form-control" defaultValue={category}>
-                    <option value="Entertainment">Entertainment</option>
-                    <option value="Lifestyle">Lifestyle</option>
-                    <option value="Sports">Sports</option>
-                    <option value="Arts">Arts</option>
-                    <option value="Religion">Religion</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="lifestyle">Lifestyle</option>
+                    <option value="sports">Sports</option>
+                    <option value="arts">Arts</option>
+                    <option value="religion">Religion</option>
                 </select>
                 </div>
  
