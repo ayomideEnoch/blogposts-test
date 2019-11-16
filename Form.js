@@ -45,11 +45,11 @@ class Form extends Component {
                 <div className="form-group">
                     <label>Category</label>
                 <select ref={this.categoryRef} className="form-control">
-                    <option value="Entertainment">Entertainment</option>
-                    <option value="Life">Life</option>
-                    <option value="Science">Science</option>
-                    <option value="Art">Art</option>
-                    <option value="Religion">Religion</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="lifestyle">Lifestyle</option>
+                    <option value="science">Science</option>
+                    <option value="art">Art</option>
+                    <option value="religion">Religion</option>
                 </select>
                 </div>
                 <button type="submit" className="btn btn-primary">Create</button>
