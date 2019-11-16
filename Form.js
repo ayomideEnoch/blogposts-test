@@ -47,8 +47,8 @@ class Form extends Component {
                 <select ref={this.categoryRef} className="form-control">
                     <option value="entertainment">Entertainment</option>
                     <option value="lifestyle">Lifestyle</option>
-                    <option value="science">Science</option>
-                    <option value="art">Art</option>
+                    <option value="sports">Sports</option>
+                    <option value="arts">Arts</option>
                     <option value="religion">Religion</option>
                 </select>
                 </div>
