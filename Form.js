@@ -39,7 +39,7 @@ class Form extends Component {
  
                 <div className="form-group">
                     <label>Content:</label>
-                    <textarea className="form-control" rows="7"cols="25" ref={this.contentRef} placeholder="Here write your content.."></textarea>
+                    <textarea className="form-control" rows="3"cols="2" ref={this.contentRef} placeholder="Here write your content.."></textarea>
                 </div>
  
                 <div className="form-group">
